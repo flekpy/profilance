@@ -1,0 +1,96 @@
+.formNews {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.formNews__input {
+  outline: none;
+  margin-top: 70px;
+  border: none;
+  width: 100%;
+  padding: 15px;
+  background-color: #F3F5FF;
+  margin-bottom: 40px;
+  border-radius: 20px;
+  color: #2D3448;
+  letter-spacing: 0.03em;
+  &::placeholder {
+    color: #A3A4A5;
+  }
+}
+
+.formNews__textarea {
+  width: 500px;
+  min-height: 150px;
+  outline: none;
+  border: none;
+  background-color: #F3F5FF;
+  border-radius: 20px;
+  color: #2D3448;
+  letter-spacing: 0.03em;
+  padding: 15px;
+  margin-bottom: 30px;
+  &::placeholder {
+    color: #A3A4A5;
+  }
+}
+
+.formNews__btnAddNew {
+  border: none;
+  outline: none;
+  background-color: #213EFF;
+  color: white;
+  padding: 15px;
+  border-radius: 20px;
+  width: 200px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.formNews__notification {
+  text-align: center;
+  color: #A3A4A5;
+  letter-spacing: 0.03em;
+}
+
+@media screen and (max-width: 570px) {
+
+.formNews__input {
+  width: 370px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.formNews__textarea {
+  width: 370px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.formNews__btnAddNew {
+  margin-top: 40px;
+}
+
+}
+
+@media screen and (max-width: 415px) {
+
+.formNews__input {
+  width: 280px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.formNews__textarea {
+  width: 280px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.formNews__btnAddNew {
+  margin-top: 40px;
+}
+
+}

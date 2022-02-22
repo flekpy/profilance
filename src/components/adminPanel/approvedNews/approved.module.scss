@@ -1,0 +1,45 @@
+.newsContainer {
+  display: flex;
+  flex-direction: column;
+  color: #2D3448;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.newsContainer__title {
+  margin: 0px 0px 10px;
+  letter-spacing: 0.01em;
+}
+
+.newsContainer__spanBody {
+  break-inside: avoid;
+  margin-bottom: 10px;
+}
+
+.newsContainer__spanCreatedAt {
+  margin-bottom: 10px;
+  color: #A3A4A5;
+}
+
+.newsContainer__btn {
+  border: none;
+  outline: none;
+  background-color: #2D3448;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+  width: 160px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.btn_margin {
+  margin-right: 15px;
+}
+
+
+@media screen and (max-width: 380px) {
+.newsContainer__btn {
+  margin-top: 10px;
+}
+}

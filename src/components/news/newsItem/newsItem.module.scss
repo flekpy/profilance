@@ -1,0 +1,22 @@
+.newsContainer {
+  display: flex;
+  flex-direction: column;
+  //width: 750px;
+  color: #2D3448;
+  margin: 0 auto;
+}
+
+.newsContainer__title {
+  margin: 0px 0px 10px;
+  letter-spacing: 0.01em;
+}
+
+.newsContainer__spanBody {
+  break-inside: avoid;
+  margin-bottom: 10px;
+}
+
+.newsContainer__spanCreatedAt {
+  margin-bottom: 40px;
+  color: #A3A4A5;
+}

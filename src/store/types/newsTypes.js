@@ -1,0 +1,39 @@
+// get all news
+export const GET_ALL_NEWS_LOADING = 'GET_ALL_NEWS_LOADING';
+export const GET_ALL_NEWS_SUCCESS = 'GET_ALL_NEWS_SUCCESS';
+export const GET_ALL_NEWS_ERROR = 'GET_ALL_NEWS_ERROR';
+
+export const GET_ALL_NEWS_SAGA = 'GET_ALL_NEWS_SAGA';
+// ---
+
+//  search news
+export const SEARCH_NEWS_LOADING = 'SEARCH_NEWS_LOADING';
+export const SEARCH_NEWS_SUCCESS = 'SEARCH_NEWS_SUCCESS';
+export const SEARCH_NEWS_ERROR = 'SEARCH_NEWS_ERROR';
+
+export const SEARCH_NEWS_SAGA = 'SEARCH_NEWS_SAGA';
+//  ---
+
+// add new news
+export const ADD_NEWS_LOADING = 'ADD_NEWS_LOADING';
+export const ADD_NEWS_SUCCESS = 'ADD_NEWS_SUCCESS';
+export const ADD_NEWS_ERROR = 'ADD_NEWS_ERROR';
+
+export const ADD_NEWS_SAGA = 'ADD_NEWS_SAGA';
+// ---
+
+// approve news
+export const APPROVE_NEWS_LOADING = 'APPROVE_NEWS_LOADING';
+export const APPROVE_NEWS_SUCCESS = 'APPROVE_NEWS_SUCCESS';
+export const APPROVE_NEWS_ERROR = 'APPROVE_NEWS_ERROR';
+
+export const APPROVE_NEWS_SAGA = 'APPROVE_NEWS_SAGA';
+// ---
+
+// delete news
+export const DELETE_NEWS_LOADING = 'DELETE_NEWS_LOADING';
+export const DELETE_NEWS_SUCCESS = 'DELETE_NEWS_SUCCESS';
+export const DELETE_NEWS_ERROR = 'DELETE_NEWS_ERROR';
+
+export const DELETE_NEWS_SAGA = 'DELETE_NEWS_SAGA';
+// ---
